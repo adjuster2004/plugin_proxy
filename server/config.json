@@ -1,0 +1,25 @@
+{
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "http",
+      "settings": {
+        "accounts": [
+          {
+            "user1": "myuser",
+            "pass": "mypassword"
+          },
+          {
+            "user2": "friend",
+            "pass": "friend_secret_password"
+          }
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
+}

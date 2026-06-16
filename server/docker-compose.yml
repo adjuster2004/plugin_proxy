@@ -1,0 +1,10 @@
+version: '3'
+services:
+  xray-proxy:
+    image: teddysun/xray:latest
+    container_name: chrome-proxy
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.json:/etc/xray/config.json
