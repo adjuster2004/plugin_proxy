@@ -6,11 +6,11 @@
       "settings": {
         "accounts": [
           {
-            "user1": "myuser",
+            "user": "myuser",
             "pass": "mypassword"
           },
           {
-            "user2": "friend",
+            "user": "friend",
             "pass": "friend_secret_password"
           }
         ]
